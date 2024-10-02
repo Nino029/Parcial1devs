@@ -20,4 +20,4 @@ jobs:
       env:
         ANDY_SURGE_TOKEN: ${{ secrets.ANDY_SURGE_TOKEN }}
       run: |
-        npx surge ./https://ultra-andymota.surge.sh--token $ANDY_SURGE_TOKEN
+        npx surge ./ ultra-andymota.surge.sh --token $ANDY_SURGE_TOKEN
